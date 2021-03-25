@@ -1,0 +1,41 @@
+2021-03-17 14:22:14,736 INFO com.capgemini.census.Censusprofileapplication.CensusProfileApplication [restartedMain] Starting CensusProfileApplication using Java 1.8.0_282 on LIN22005921 with PID 7476 (C:\Users\KKAILASS\Documents\Census-profile-application\target\classes started by kkailass in C:\Users\KKAILASS\Documents\Census-profile-application)
+2021-03-17 14:22:14,797 DEBUG com.capgemini.census.Censusprofileapplication.CensusProfileApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-03-17 14:22:14,798 INFO com.capgemini.census.Censusprofileapplication.CensusProfileApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-17 14:22:15,160 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-17 14:22:15,161 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-17 14:22:29,212 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-17 14:22:29,485 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 233 ms. Found 4 JPA repository interfaces.
+2021-03-17 14:22:34,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-03-17 14:22:34,425 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-03-17 14:22:34,427 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-03-17 14:22:34,428 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-17 14:22:34,945 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-03-17 14:22:34,945 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 19782 ms
+2021-03-17 14:22:36,166 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-17 14:22:36,602 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-17 14:22:37,412 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-17 14:22:37,735 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-03-17 14:22:39,029 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-03-17 14:22:39,150 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-17 14:22:42,309 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-17 14:22:42,326 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-17 14:22:42,358 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-03-17 14:22:44,400 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-17 14:22:44,829 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-17 14:22:45,894 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-03-17 14:22:45,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-17 14:22:47,060 INFO com.capgemini.census.Censusprofileapplication.CensusProfileApplication [restartedMain] Started CensusProfileApplication in 33.958 seconds (JVM running for 37.136)
+2021-03-17 14:24:46,534 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-17 14:24:46,535 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-17 14:24:46,539 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 3 ms
+2021-03-17 14:24:46,776 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-1] Entering method : com.capgemini.census.controller.UserController.addUser() with argument[s] = [User(userId=null, userName=abcd, password=123456, role=USER)]
+2021-03-17 14:24:46,951 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-1] Exiting method: com.capgemini.census.controller.UserController.addUser() with result = <201 CREATED Created,User(userId=2, userName=abcd, password=123456, role=USER),[]>
+2021-03-17 14:26:18,633 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-3] Request method 'POST' not supported
+2021-03-17 14:40:34,524 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-7] Request method 'POST' not supported
+2021-03-17 14:41:43,816 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-2] Request method 'POST' not supported
+2021-03-17 14:53:29,981 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-6] Entering method : com.capgemini.census.controller.UserController.addUser() with argument[s] = [User(userId=null, userName=kalyani, password=123456, role=USER)]
+2021-03-17 14:53:30,015 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-6] Exiting method: com.capgemini.census.controller.UserController.addUser() with result = <201 CREATED Created,User(userId=3, userName=kalyani, password=123456, role=USER),[]>
+2021-03-17 14:55:46,172 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-7] Request method 'POST' not supported
+2021-03-17 14:57:24,545 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-2] Entering method : com.capgemini.census.controller.UserController.addUser() with argument[s] = [User(userId=null, userName=Kunal, password=123456, role=USER)]
+2021-03-17 14:57:24,562 DEBUG com.capgemini.census.aspect.LoggerAspect [http-nio-8081-exec-2] Exiting method: com.capgemini.census.controller.UserController.addUser() with result = <201 CREATED Created,User(userId=4, userName=Kunal, password=123456, role=USER),[]>
+2021-03-17 16:12:05,966 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m56s412ms643µs700ns).
